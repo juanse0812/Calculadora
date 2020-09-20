@@ -7,3 +7,4 @@ ventana.title("Calculadora")
 ventana.geometry("400x600")
 ventana.resizable(False, False)
 ventana.configure(background="turquoise4")
+
