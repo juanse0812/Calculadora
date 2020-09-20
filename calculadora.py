@@ -41,3 +41,9 @@ Boton4 = Button(ventana, text="4", background=color_boton, width=ancho_boton, he
 Boton5 = Button(ventana, text="5", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(5)).grid(row=2, column=1, pady=10)
 Boton6 = Button(ventana, text="6", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(6)).grid(row=2, column=2, pady=10)
 Boton7 = Button(ventana, text="7", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(7)).grid(row=2, column=3, pady=10)
+#Se añade la tercera fila de botones 
+#botones de la tercera fila
+Boton8 = Button(ventana, text="8", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(8)).grid(row=3, column=0, pady=10)
+Boton9 = Button(ventana, text="9", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(9)).grid(row=3, column=1, pady=10)
+BotonIgual = Button(ventana, text="=", background=color_boton, width=ancho_boton, height=alto_boton, command=resultado).grid(row=3, column=2, pady=10)
+BotonPunto= Button(ventana, text=".", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(".")).grid(row=3, column=3, pady=10)
