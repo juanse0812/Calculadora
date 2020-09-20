@@ -47,3 +47,19 @@ Boton8 = Button(ventana, text="8", background=color_boton, width=ancho_boton, he
 Boton9 = Button(ventana, text="9", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(9)).grid(row=3, column=1, pady=10)
 BotonIgual = Button(ventana, text="=", background=color_boton, width=ancho_boton, height=alto_boton, command=resultado).grid(row=3, column=2, pady=10)
 BotonPunto= Button(ventana, text=".", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(".")).grid(row=3, column=3, pady=10)
+#botones de la cuarta fila
+BotonLimpiar = Button(ventana, text="C", background=color_boton, width=ancho_boton, height=alto_boton, command=limpiar).grid(row=4, column=0, pady=10)
+BotonSuma = Button(ventana, text="+", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar("+")).grid(row=4, column=1, pady=10)
+BotonResta = Button(ventana, text="-", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar("-")).grid(row=4, column=2, pady=10)
+BotonMult = Button(ventana, text="*", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar("*")).grid(row=4, column=3, pady=10)
+#botones de la quinta fila
+BotonDiv = Button(ventana, text="÷", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar("/")).grid(row=5, column=0, pady=10)
+BotonRaiz = Button(ventana, text="√", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar("sqrt")).grid(row=5, column=1, pady=10)
+BotonPi = Button(ventana, text="π", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar("pi")).grid(row=5, column=2, pady=10)
+BotonE = Button(ventana, text="E", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar("e")).grid(row=5, column=3, pady=10)
+#botones de la sexta fila
+BotonParenizq = Button(ventana, text="(", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar("(")).grid(row=6, column=0, pady=10)
+BotonParender = Button(ventana, text=")", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(")")).grid(row=6, column=1, pady=10)
+pantalla = Entry(ventana, font=("arial", 20, "bold"), width=22, borderwidth=10, background="gray64", textvariable=texto_pantalla)
+pantalla.grid(row=0, column=0, columnspan=4, padx=20, pady=20)
+ventana.mainloop()
