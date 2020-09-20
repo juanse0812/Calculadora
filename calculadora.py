@@ -35,3 +35,9 @@ Boton0 = Button(ventana, text="0", background=color_boton, width=ancho_boton, he
 Boton1 = Button(ventana, text="1", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(1)).grid(row=1, column=1, pady=10)
 Boton2 = Button(ventana, text="2", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(2)).grid(row=1, column=2, pady=10)
 Boton3 = Button(ventana, text="3", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(3)).grid(row=1, column=3, pady=10)
+#SE INSERTA LA SEGUNDA FILA DE BOTONES PARA LA PANTALLA, RECUERDE COMPAÑERO MANEJAR LA MISMA LINEA DE COMANDOS GRID
+#botones de la segunda fila
+Boton4 = Button(ventana, text="4", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(4)).grid(row=2, column=0, pady=10)
+Boton5 = Button(ventana, text="5", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(5)).grid(row=2, column=1, pady=10)
+Boton6 = Button(ventana, text="6", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(6)).grid(row=2, column=2, pady=10)
+Boton7 = Button(ventana, text="7", background=color_boton, width=ancho_boton, height=alto_boton, command=lambda:pulsar(7)).grid(row=2, column=3, pady=10)
