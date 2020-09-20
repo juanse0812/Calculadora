@@ -63,3 +63,4 @@ BotonParender = Button(ventana, text=")", background=color_boton, width=ancho_bo
 pantalla = Entry(ventana, font=("arial", 20, "bold"), width=22, borderwidth=10, background="gray64", textvariable=texto_pantalla)
 pantalla.grid(row=0, column=0, columnspan=4, padx=20, pady=20)
 ventana.mainloop()
+#Se agraga el link de la reunión "https://meet.google.com/jmj-cknd-fgd"
